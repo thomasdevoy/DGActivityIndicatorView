@@ -11,7 +11,7 @@
 @implementation DGActivityIndicatorBallBeatAnimation
 
 - (void)setupAnimationInLayer:(CALayer *)layer withSize:(CGSize)size tintColor:(UIColor *)tintColor {
-    CGFloat duration = 0.7f;
+    CGFloat duration = 1.f;
     NSArray *beginTimes = @[@0.35f, @0.0f, @0.35f];
     CGFloat circleSpacing = 2.0f;
     CGFloat circleSize = (size.width - circleSpacing * 2) / 3;
